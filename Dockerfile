@@ -1,5 +1,5 @@
 
-FROM openshift/installer
+FROM openshift/cli
 
 #FROM registry.access.redhat.com/ubi8/ubi
 #FROM openshift/jenkins-slave-base-centos7
