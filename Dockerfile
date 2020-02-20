@@ -6,6 +6,6 @@ FROM openshift/cli
 
 RUN yum --disableplugin=subscription-manager -y install epel-release
 
-#RUN yum --disableplugin=subscription-manager -y install skopeo
+RUN yum --disableplugin=subscription-manager -y install skopeo
 
 CMD bash -c "while true; do echo OK; sleep 60; done"
