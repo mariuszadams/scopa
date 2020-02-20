@@ -1,6 +1,6 @@
 
 
-FROM registry.access.redhat.com/rhel7/rhel
+FROM registry.access.redhat.com/rhel7/rhel:7.5
 #FROM openshift/cli
 #FROM openshift/jenkins-slave-base-centos7
 
