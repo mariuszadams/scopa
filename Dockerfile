@@ -1,7 +1,7 @@
 
-FROM openshift/cli
 
-#FROM registry.access.redhat.com/ubi8/ubi
+FROM registry.access.redhat.com/rhel7
+#FROM openshift/cli
 #FROM openshift/jenkins-slave-base-centos7
 
 RUN yum --disableplugin=subscription-manager -y install epel-release
